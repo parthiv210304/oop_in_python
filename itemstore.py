@@ -45,3 +45,4 @@ class Item:
 # Item.instantiate_from_csv()
 # print(Item.all)
 print(Item.check_integer(8.3))
+print("parthiv")
