@@ -44,5 +44,11 @@ class Item:
 
 # Item.instantiate_from_csv()
 # print(Item.all)
+
+class Phone(Item):
+    def __init__(self,name:str,price:int,quantity:int):
+        super().__init__(name,price,quantity)
+
 print(Item.check_integer(8.3))
-print("parthiv")
+phone1 = Phone("iphone",1000,3)
+phone1.calculate_price()
